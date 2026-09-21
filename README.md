@@ -1,16 +1,57 @@
-# React + Vite
+#  Hanif Hafidz Abdurrahman — Personal Portfolio V2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-Currently, two official plugins are available:
+A modern, interactive, and high-performance personal portfolio web application designed for **Hanif Hafidz Abdurrahman** — Software & AI Developer. Built using React, Vite, Tailwind CSS, and Framer Motion, featuring dynamic scroll animations, mouse-tracking lighting effects, and sleek glassmorphism UI architecture.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Interactive Hero Section:** Dynamic ambient glow that reacts to cursor movements and subtle 3D tilt floating animations.
+* **Scroll-Triggered Motion:** Seamless `fade-in`, `blur-in`, and `scale` animation triggers on every section when scrolling up or down.
+* **Services & Offerings Showcase:** Clean glassmorphic grid highlighting core technical capabilities (Software Engineering, AI/LLM Integration, Data Analytics, and UI/UX Design).
+* **Direct Interactive CTAs:** Integrated mailto action directing users directly to `abdurrahmanhaniff39@gmail.com` and a live link to the latest interactive CV.
+* **Fully Responsive Design:** Optimized for seamless user experience across mobile, tablet, and desktop viewports.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+| Category | Technology / Library |
+| :--- | :--- |
+| **Framework / Runtime** | React.js, Vite |
+| **Styling** | Tailwind CSS, CSS3 |
+| **Animations** | Framer Motion |
+| **Icons & Assets** | Custom SVG / Lucide Icons |
+| **Deployment** | Vercel / Netlify |
+
+---
+
+## Directory Structure
+
+```text
+portfolio-web-2/
+├── public/
+│   └── profile.png
+├── src/
+│   ├── components/
+│   │   ├── Navbar/
+│   │   ├── Hero/
+│   │   ├── About/
+│   │   ├── Projects/
+│   │   ├── Offers/
+│   │   ├── Experience/
+│   │   ├── Testimonials/
+│   │   └── Contact/
+│   ├── data/
+│   │   └── portfolioData.js
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
